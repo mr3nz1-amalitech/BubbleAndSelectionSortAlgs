@@ -48,7 +48,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter a series of numbers separated by spaces: ");
         inputStr = scanner.nextLine();
-
         String[] numsStr = inputStr.split(" ");
         int[] nums = new int[numsStr.length];
 
